@@ -1,0 +1,19 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn-primary-blog {
+        @apply bg-[#3B1C32] text-white px-6 py-2 rounded-lg font-medium hover:bg-white hover:text-[#3B1C32] hover:outline hover:outline-2 hover:outline-[#3B1C32] hover:font-bold ;
+    }
+
+    .btn-secondary-blog {
+        @apply bg-[#6A1E55] text-white px-6 py-2 rounded-lg font-medium hover:bg-white hover:text-[#6A1E55] hover:outline hover:outline-2 hover:outline-[#6A1E55] hover:font-bold;
+    }
+}
